@@ -7,12 +7,84 @@
     <title>Bootstrap Sample</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
+    <!-- jQuery読み込み -->.
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello, world!!!</h1>
+    <header>
+        <!-- ナビ部分 -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">サイト名あとでいれる</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="works.html">WORKS</a></li>
+                        <li><a href="link.html">LINK</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ヘッダー部分 -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Sako's SandBox</h1>
+                <p>説明文</p>
+            </div>
+        </div>
+    </header>
+        
+    <div class="contents">
+        <div class="container profile">
+            <div class="row">
+                <!-- 左カラム -->
+                <div class="col-xs-9 left-column">
+                    <div class="row">
+                        <h2><span class="kanji-name">竹迫 晋作</span><span class="roma-name">Takesako Shinsaku</span></h2>
+                        <hr />
+                        <h3>Profile</h3>
+                        <p>
+                            2015年に東京理科大学を卒業後、既にアルバイトとして働いていた株式会社ギャプライズにフリーターとして在籍。
+                            Webマーケティングのアシスタントとして主にリスティング広告の運用及びアフィリエイト広告運用を担当。
+                            己のスキルアップと上司を見返す事を目的にTechAcademyオンラインブートキャンプへの参加を決める。
+                        </p>
+                        <h3>Skill</h3>
+                        <dl class="dl-horizontal">
+                            <dt>HTML</dt><dd>★★☆☆☆</dd>
+                            <dt>CSS</dt><dd>★★☆☆☆</dd>
+                            <dt>javascript</dt><dd>★★☆☆☆</dd>
+                            <dt>VBA</dt><dd>★★★☆☆</dd>
+                            <dt>PHP</dt><dd>★★☆☆☆</dd>
+                            <dt>WordPress</dt><dd>★★☆☆☆</dd>
+                            <dt>Ruby</dt><dd>☆☆☆☆☆</dd>
+                        </dl>
+                        <h3>Link</h3>
+                        <a href=""
+                    </div>
+                </div>
+                
+                <!-- 右カラム -->
+                <div class="col-xs-3 right-column">
+                    右カラム<br />
+                    あとでなにかおく
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
   </body>
 </html>
