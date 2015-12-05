@@ -72,3 +72,11 @@ hr{
 .profile dl{
     font-size:20px;
 }
+
+.left-column{
+    margin:10px 0;
+}
+
+.right-column{
+    margin:10px 0;
+}
